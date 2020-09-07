@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,7 @@
     <title>Randy Anderson</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-        integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
-        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -42,7 +41,7 @@
                                         aria-hidden="true"></i><span>Contact</span></a>
                             </li>
                             <li class="col-6 col-sm-3 ui-menu-color-download list-inline-item menuitem">
-                                <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-download"
+                                <a href="assets/cv/Resume.pdf" target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-download"
                                         aria-hidden="true"></i><span>Download</span></a>
                             </li>
                         </ul>
@@ -51,26 +50,44 @@
             </div>
         </div>
     </header>
-    <section>
+    <section class="container-fluid">
+        <div class="row bg-color-contact">
+            <div class="col">
+                <h3 class="contact-heading uppercase text-center">Got a project in mind?</h3>
+                <h5 class="uppercase text-center">Let's work together!</h5>
 
+                <div class="center-form">
+                    <form action="">
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required>
+                        <textarea name="projectsummary" id="projectsummary" rows="5" class="form-control" placeholder="Project description" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Send Project Request</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
     </section>
     <footer class="container-fluid">
         <div id="footer-details" class="row">
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">About</h5>
                 <p class="inline-block">
-                    Hi, I'm Randy, design thinking full-stack developer with a passion for motion
-                    design. I'm currently living in Toronto, Ontario, but originally from Northern Ontario. I'm an absolute geek and
-                    love geeking out on all things tech and software development related.
+                    Hi, I'm Randy, design thinking full-stack developer with a passion for motion design. I'm currently living in Toronto, Ontario, but originally from Northern Ontario. I'm an absolute geek and love geeking out on all things tech and software development
+                    related.
                 </p>
             </div>
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">Download</h5>
                 <p class="inline-block">
                     Need a printable version of my cv? Download it here.
-                    <a href="#" target="_blank" class="cv-pdf">
+                    <a href="assets/cv/Resume.pdf" target="_blank" class="cv-pdf">
                         <i class="fa fa-download" aria-hidden="true"></i>
-                        <span class="sr-only">Download link.</span>               
+                        <span class="sr-only">Download link.</span>
                     </a>
                 </p>
             </div>
@@ -118,4 +135,5 @@
         </div>
     </footer>
 </body>
+
 </html>

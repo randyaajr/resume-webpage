@@ -26,3 +26,4 @@ This project is downloadabe. If you would like to download this repo for persona
 ## Acknowledgements
 
 * [Code Institute](https://codeinstitute.net/)
+* [Canadian Business College](https://canadianbusinesscollege.com/)

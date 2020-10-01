@@ -1,4 +1,4 @@
-# Welcome to my Resume
+# Resume Webpage
 --------- 
 
  This is a my complete resume in website format. I have taken what i have learned in UXD (User experience design) to provide meaningful and relevant experience to the recruiter veiwing my resume. 
@@ -25,4 +25,4 @@ This project is downloadabe. If you would like to download this repo for persona
 
 ## Acknowledgements
 
-*[Code Institute](https://codeinstitute.net/)
+* [Code Institute](https://codeinstitute.net/)

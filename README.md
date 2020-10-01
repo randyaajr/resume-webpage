@@ -1,11 +1,11 @@
 # Resume Webpage
 --------- 
 
- This is a my complete resume in website format. I have taken what i have learned in UXD (User experience design) to provide meaningful and relevant experience to the recruiter veiwing my resume. 
+ This is a complete resume in website format. I have taken what i have learned in UXD (User experience design) to provide meaningful and relevant experience to the recruiter veiwing my resume. 
 
 
 ### Built With
-This section lists the frameworks I used to built this project. Leave any add-ons/plugins for the acknowledgements section. 
+This section lists the frameworks I used to built this project.
 * [HTML](https://en.wikipedia.org/wiki/HTML)
 * [CSS](https://en.wikipedia.org/wiki/CSS)
 * [Bootstrap](https://getbootstrap.com)

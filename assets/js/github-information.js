@@ -67,6 +67,9 @@ function fetchGitHubInformation(event) {
                 $("#gh-user-data").html(
                     `<h2>No info found about this user${username}</h2>`
                 );
+            } else if (errorResponse.status === 403) {
+                var resetTime = new Date(errorResponse.getResponseHearder('x-RateLimit-Reset') * 1000);
+                $("#gh-user-data").html(`<h4>Wooow Wooow ;) Slow down there, please wait until ${resetTime.toDateString()}</h4>`);
             } else {
                 console.log(errorResponse);
                 $("#gh-user-data").html(

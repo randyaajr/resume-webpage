@@ -68,8 +68,8 @@ function fetchGitHubInformation(event) {
                     `<h2>No info found about this user${username}</h2>`
                 );
             } else if (errorResponse.status === 403) {
-                var resetTime = new Date(errorResponse.getResponseHearder('x-RateLimit-Reset') * 1000);
-                $("#gh-user-data").html(`<h4>Wooow Wooow ;) Slow down there, please wait until ${resetTime.toDateString()}</h4>`);
+                var resetTime = new Date(errorResponse.getResponseHeader('X-RateLimit-Reset') * 1000);
+                $("#gh-user-data").html(`<h4>Too many search requests have been made, please wait until ${resetTime.toLocaleTimeString()}</h4>`);
             } else {
                 console.log(errorResponse);
                 $("#gh-user-data").html(
@@ -78,4 +78,3 @@ function fetchGitHubInformation(event) {
             }
         });
 }
-$(document).ready(fetchGitHubInformation);

@@ -18,9 +18,7 @@ This section lists the languages and frameworks I used to built this project.
 
 
 ## Usage
-
 This project is downloadabe. If you would like to download this repo for personal use, feel free. Steps below
-
 1. Click the green "Code" button above the file section.
 2. Click "Download Zip".
 3. Open your downloads file and extract.
@@ -28,7 +26,6 @@ This project is downloadabe. If you would like to download this repo for persona
 
 
 ## Acknowledgements
-
 * [Code Institute](https://codeinstitute.net/)
 * [Canadian Business College](https://canadianbusinesscollege.com/)
 * [Stack Overflow](https://stackoverflow.com/)
